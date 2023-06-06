@@ -1,0 +1,96 @@
+.aboutus-page{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68;
+}
+/* Pseudo element selectors */
+ .abt-header h1::before {
+    content: "🛍️";
+    margin-right: 10px;
+  }
+
+ .abt-content div::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .abt-content div,p{
+    margin-bottom: 20px
+  }
+  .abt-product-cards .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(167, 214, 241, 0.314);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .abt-product-cards .card:hover::before {
+    opacity: 1;
+  }
+
+  .card img::after {
+    content: "📷";
+    font-size: 1.2em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .card-title{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68;
+  } 
+
+  /* input:focus {
+    outline: 2px solid blue;
+  } */
+
+  div.row > div:first-child {
+    /* background-color: lightgray; */
+  }
+
+@media only screen and (max-width: 480px) { 
+    .abt-content div,p{
+        font-size: 10px;
+        margin-bottom: 20px
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .abt-header h1{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+    .abt-content div,p{
+        font-size: 14px;
+        margin-bottom: 20px
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .abt-header h1{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* .abt-content div,p{
+        font-size: 1px;
+        margin-bottom: 20px
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .abt-header h1{
+        font-size: 25px;
+    } */
+}

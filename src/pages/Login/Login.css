@@ -1,0 +1,82 @@
+#login-page{
+    color: #243f68;
+    max-width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin: 5% auto 10% auto;
+}
+
+#Email,#Password{
+    width: 300px;
+}
+
+#Email::placeholder,#Password::placeholder{
+    font-size: 13px;
+    color: rgb(184, 184, 184);
+}
+
+#form-content{
+    width: 100%;
+}
+
+#form-content form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#submit-btn button{
+    color: white;
+    padding: 5px 25px;
+    background-color: #243f68;
+}
+
+#submit-btn button:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #1c3150;
+}
+
+@media only screen and (max-width: 480px) {
+    #login-page{
+        max-width: 60%;
+        margin: 3% auto;
+    }
+    #login-page h1{
+        font-size: 25px;
+    }
+    #form-content form div{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    #Email,#Password{
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #login-page h1{
+        font-size: 30px;
+    }
+    #login-page{
+        max-width: 60%;
+    }
+    #form-content form div{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    #Email,#Password{
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #login-page{
+        max-width: 50%;
+    }
+    #form-content form div{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}

@@ -1,0 +1,29 @@
+
+
+#website-logo{
+    display: inline-block;
+    width: 200px;
+}
+.navbar-login-btn{
+    border: 1px solid #243f68;
+    color: #243f68;
+    font-size: 13px;
+    padding: 8px 15px;
+}
+
+.navbar-login-btn:hover{
+    background-color: #243f68;
+    color: white;
+    box-shadow: rgba(55, 55, 55, 0.585) 0px 5px 15px;
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68de !important;
+}
+
+.nav-link.active{
+    color: #243f68;
+    font-weight: 600;
+    text-decoration: underline;
+}

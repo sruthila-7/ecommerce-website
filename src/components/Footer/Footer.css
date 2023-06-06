@@ -1,0 +1,149 @@
+.footer{
+    background-color: rgba(209, 209, 209, 0.785);
+    font-family: 'Poppins', sans-serif;
+}
+.footer-sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 3rem; 
+}
+
+.footer-section-left-right{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.footer-headings{
+    font-size: 20px;
+    font-weight: 700;
+    color: #243f68;
+}
+.footer-section-left-right{
+    padding: 0px 7%;
+}
+
+.footer-section-left-right .contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section-left-right div{
+    font-weight: 400;
+    color: #455964;
+    margin: 10px 0px;
+}
+
+.contact-details i{
+    margin-right: 1rem;
+}
+
+.contact-details p{
+    font-size: 14px;
+    width: 320px;
+}
+.abt-company{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.social-media-links a{
+    margin: 0px 7px;
+}
+
+.copyright-section{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #243f6882;
+}
+
+.copyright-section h5,a{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.copyright-section a:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 480px) { 
+    .footer-sections{
+        padding: 1rem 1rem;
+    }
+    .footer-headings{
+      font-size: 15px;
+    }
+
+    .contact-details p{
+        font-size: 12px;
+        width: 200px;
+    }
+    .abt-company{
+        font-size: 12px;
+    }
+    .footer-section-left-right div{
+        margin: 5px 0px;
+    }
+    .footer-section-left-right{
+        margin-bottom: 20px;
+    }
+    .copyright-section h5{
+        font-size: 14px;
+    }
+
+    .social-media-links a i{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+    .footer-headings{
+        font-size: 17px;
+      }
+    .contact-details p{
+        font-size: 14px;
+        width: 150px;
+    }
+    .copyright-section h5{
+        font-size: 16px;
+    }
+    .footer-section-left-right{
+        padding: 0px 3%;
+        margin-bottom: 0px;
+    }
+    .footer-section-left-right div{
+        margin: 5px 0px;
+    }
+    .abt-company{
+        font-size: 14px;
+    }
+
+    .social-media-links a i{
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer-headings{
+        font-size: 19px;
+    }
+    .contact-details p{
+        font-size: 14px;
+        width: 230px;
+    }
+    .abt-company{
+        font-size: 15px;
+    }
+    .copyright-section h5{
+        font-size: 18px;
+    }
+    .footer-section-left-right{
+        margin-bottom: 10px;
+    }
+    .social-media-links a i{
+        font-size: 1.9em;
+    }
+}

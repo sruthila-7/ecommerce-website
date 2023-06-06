@@ -1,0 +1,30 @@
+.sale-banner img{
+   width: 100%;
+   height: 500px;
+   object-fit: cover;
+}
+
+@media only screen and (max-width: 480px) { 
+    .sale-banner img{
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+     }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+    .sale-banner img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+     }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .sale-banner img{
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+     }
+}

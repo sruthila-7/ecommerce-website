@@ -1,0 +1,118 @@
+.empty-cart{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68de !important;
+}
+
+.continue-btn{
+    background-color: transparent;
+    border: 2px solid #243f68;
+    color: #243f68;
+}
+
+.continue-btn:hover{
+    background-color: #243f68;
+    color: white;
+}
+
+.checkout-page{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68de !important;
+}
+
+#order-summary li, #order-summary-header{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68de !important;
+}
+
+#order-summary-header h5{
+    font-weight: 600;
+}
+
+#total-amount{
+    font-size: 18px;
+ } 
+
+ .card-header h4{
+    font-family: 'Poppins', sans-serif;
+    color: #243f68de !important;
+ }
+
+ .billing-info form, input {
+    font-family: 'Poppins', sans-serif;
+    color: #243f68de !important;
+    /* padding: 5px; */
+ }
+
+ .billing-info form input{
+   padding: 10px 20px;
+ }
+
+ .billing-info form input:focus {
+    outline: 2px solid #243f68;
+  }
+
+ .billing-info form input::placeholder{
+    font-size: 13px;
+    color: rgb(145, 145, 145);
+ }
+.checkout-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .continue-checkout-btn{
+    background-color: #2b4b7b;
+    color: white;
+ }
+
+ .continue-checkout-btn:hover{
+    background-color: #1f3252;
+    color: white;
+}
+
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+
+  .alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+  }
+
+  .d-none {
+    display: none;
+  }
+  
+ @media only screen and (max-width: 480px) { 
+    #order-summary li{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    #total-amount div,span{
+        font-size: 14px !important;
+     } 
+
+     .billing-info form label{
+        font-size: 14px !important;
+     }
+
+     .card-fullname{
+        font-size: 12px;
+     }
+ }
+
+ @media only screen and (min-width: 481px) and (max-width: 768px) { 
+    #order-summary li{
+        padding: 0;
+        font-size: 16px;
+    }
+
+    #total-amount div,span{
+        font-size: 18px !important;
+     } 
+ }
